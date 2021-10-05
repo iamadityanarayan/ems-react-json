@@ -1,17 +1,17 @@
-#To run App
+# To run App
 
-Step 1 : Clone or Download zip
-Step 2 : `npm i` 
-Step 3 : `npm run dev` to run both react and json server
+## Step 1 : Clone or Download zip
+## Step 2 : `npm i` 
+## Step 3 : `npm run dev` to run both react and json server
 
 or
 
-`npm start` to run react
-`npm run json-server` to run json server 
+## Step 3.1 : `npm start` to run react
+## Step 3.2 : `npm run json-server` to run json server 
 
-default port for react `3000` & json-server `5000`
-[http://localhost:3000](http://localhost:3000) 
-[http://localhost:5000/employees](http://localhost:5000/employees)
+# default port for react `3000` & json-server `5000`
+## [http://localhost:3000](http://localhost:3000) 
+## [http://localhost:5000/employees](http://localhost:5000/employees)
 
 
 

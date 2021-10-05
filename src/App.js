@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import AllEmployee from './components/AllEmployee';
+import AddEmployee from './components/AddEmployee';
+import PageNotFound from './components/PageNotFound';
+import EditEmployee from './components/EditEmployee';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/notfound"><PageNotFound /></Route>
+        <Route>
+          <NavBar />
+          <Switch>
+            <Route exact path="/"><Home /></Route>
+            <Route exact path="/all"><AllEmployee /></Route>
+            <Route exact path="/add"><AddEmployee /></Route>
+            <Route exact path="/edit/:id"><EditEmployee /></Route>
+            <Redirect to="/notfound" />
+          </Switch>
+        </Route>
+      </Switch>
+    </Router>
   );
+}
+
+const Home = () => {
+  return (
+    <div className="pt-5">
+      Home Component
+    </div>
+  )
 }
 
 export default App;

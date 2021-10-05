@@ -1,0 +1,58 @@
+{
+  "employees": [
+    {
+      "name": "Adityanarayan Tiwari",
+      "email": "aditya17121997@gmail.com",
+      "phone": "9425953556",
+      "empId": "1",
+      "address1": "flat 101",
+      "address2": "adas",
+      "id": 1
+    },
+    {
+      "name": "Rudra Tiwari",
+      "email": "rudra@outlook.com",
+      "phone": "9874634324",
+      "empId": "22",
+      "address1": "flat 101",
+      "address2": "5",
+      "id": 2
+    },
+    {
+      "name": "Adityanarayan Tiwari",
+      "email": "aditya17121997@gmail.com",
+      "phone": "9425953556",
+      "empId": "10",
+      "address1": "flat 101",
+      "address2": "adas",
+      "id": 3
+    },
+    {
+      "name": "Shubham",
+      "email": "shubham17121997@gmail.com",
+      "phone": "5783980182",
+      "empId": "44",
+      "address1": "flat 101",
+      "address2": "adas",
+      "id": 4
+    },
+    {
+      "name": "Adityanarayan Tiwari SRT",
+      "email": "aditya17121997@gmail.com",
+      "phone": "9425953556",
+      "empId": "111",
+      "address1": "flat 101",
+      "address2": "asdf",
+      "id": 5
+    },
+    {
+      "name": "Rudra Tiwari",
+      "email": "rudra@outlook.com",
+      "phone": "9874634324",
+      "empId": "222",
+      "address1": "flat 101",
+      "address2": "5",
+      "id": 6
+    }
+  ]
+}

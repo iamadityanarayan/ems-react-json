@@ -1,3 +1,31 @@
+#To run App
+
+Step 1 : Clone or Download zip
+Step 2 : `npm i` 
+Step 3 : `npm run dev` to run both react and json server
+
+or
+
+`npm start` to run react
+`npm run json-server` to run json server 
+
+default port for react `3000` & json-server `5000`
+[http://localhost:3000](http://localhost:3000) 
+[http://localhost:5000/employees](http://localhost:5000/employees)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
